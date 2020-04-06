@@ -1,6 +1,6 @@
 # DOIT_List
 
- `리스트`로 구성된 Sample TodoList 프로젝트는 `RecyclerView` 을 활용하여 만들었습니다.
+ `리스트`로 구성된 DOIT_List 프로젝트는 `RecyclerView` 을 활용하여 만들었습니다.
 
 <br/>
 
@@ -9,9 +9,9 @@
 ```
 1. Realm 으로 회원 관리를 합니다.
 2. Realm 으로 등록된 회원은 각자의 Todo 를 갖고 있습니다.
-3. Todo를 작성화면에서 TodoList 화면으로 전환 시 추가된 데이터가 보입니다.
-4. Todo 삭제는 실시간으로 Realm에 반영되어야 합니다.
-5. Todo 한 것은 CheckBox로 표시할 수 있으며 체크는 남아있습니다.
+3. Doit를 작성화면에서 DOIT_List 화면으로 전환 시 추가된 데이터가 보입니다.
+4. Doit를 삭제는 실시간으로 Realm에 반영되어야 합니다.
+5. Doit를 한 것은 CheckBox로 표시할 수 있으며 체크는 남아있습니다.
 6. Fragment을 통한 화면구성 합니다.
 7. Drawer을 활용하여 글로벌메뉴를 구성합니다.
 8. 메뉴의 '도움말' 기능이 추가하여 사이트로 이동하도록 합니다.
