@@ -18,6 +18,12 @@
 8. 메뉴의 '도움말' 기능이 추가하여 사이트로 이동하도록 합니다.
 ```
 
+## 사용 예제
+* 사용자 로그인/회원가입/로그아웃
+* 리스트 형태로 보여주는 DOIT_List 작성, 수정, 삭제
+* 세션으로 사용자별 리스트 다르게 보여주기
+* 리스트 목록을 CheckBok로 선택 기능 구현
+
 <br/>
 
 ## 실행화면
@@ -291,3 +297,6 @@ override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 > `Back Button` 클릭 시 `onOptionsItemSelected()` 을 호출하게 됩니다. 여기서 `item?itemID` 로 `android.R.id.home` 을 비교해야지 `item?groupID` 로 비교하면 안됩니다. 알게모르게 실수 할 수 있는 부분이라서 주의해주세요.
 
 <br/>
+
+
+#### - 깃허브 : [GitHub/ksh030506](https://github.com/ksh030506)
