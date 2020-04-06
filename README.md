@@ -1,10 +1,10 @@
-# Sample TodoList 만들기
+# TodoList
 
  `리스트`로 구성된 Sample TodoList 프로젝트는 `RecyclerView` 을 활용하여 만들었습니다.
 
 <br/>
 
-## TodoList Sample Code 요구사항
+## TodoList Code 요구사항
 
 ```
 1. Realm 으로 회원 관리를 합니다.
