@@ -1,6 +1,7 @@
 # DOIT_List
 
- `리스트`로 구성된 DOIT_List 프로젝트는 `RecyclerView` 을 활용하여 만들었습니다.
+* `리스트`로 구성된 DOIT_List 프로젝트는 `RecyclerView` 을 활용하여 만들었습니다.
+* `Realm`과 `Kotlin` 을 활용하여 `DOIT_List`을 구성하였습니다.
 
 <br/>
 
@@ -115,7 +116,7 @@ private fun initTodoAdapter(){
 
 ## Kotlin Extention을 사용 시 Fragment 에서 주의 해야 할 사항
 
-`Activity` 에서 [Kotlin Extention](https://github.com/FaithDeveloper/TIL/blob/master/Android/Kotlin%20Android%20Extensions.md)을 사용할 때에는 `onCreate()` 에서 설정할 수 있었으나 비슷하게 `Fragment`에서 `onCreateView()` 에서 Kotlin Extention을 사용하면 `null` 을 리턴하여 Error을 발견할 수 있습니다. `Fragment` 에서 Kotlin Extention을 사용 시 `onViewCreated()` 에서 사용하여야 합니다.
+`Activity` 에서 `Kotlin Extention`을 사용할 때에는 `onCreate()` 에서 설정할 수 있었으나 비슷하게 `Fragment`에서 `onCreateView()` 에서 Kotlin Extention을 사용하면 `null` 을 리턴하여 Error을 발견할 수 있습니다. `Fragment` 에서 Kotlin Extention을 사용 시 `onViewCreated()` 에서 사용하여야 합니다.
 
 > **Kotlin Extention을 Fragment에서 사용 시 주의 사항**
 >
@@ -289,9 +290,3 @@ override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 > `Back Button` 클릭 시 `onOptionsItemSelected()` 을 호출하게 됩니다. 여기서 `item?itemID` 로 `android.R.id.home` 을 비교해야지 `item?groupID` 로 비교하면 안됩니다. 알게모르게 실수 할 수 있는 부분이라서 주의해주세요.
 
 <br/>
-
-## 정리
-
-`Realm`과 `Kotlin` 을 활용하여 `TodoList`을 구성하였습니다. `Fragment`와 `RecyclerView`을 연습할 수 있는 예제로 공부하는데 도움이 되길 바랍니다.
-
-Kotlin Extention 개념은 [Android Kotlin Extention](https://github.com/FaithDeveloper/TIL/blob/master/Android/Kotlin%20Android%20Extensions.md) 에서 확인 가능 합니다.
